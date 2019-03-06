@@ -12,3 +12,11 @@ var fs=require('fs');
         if(err) throw err;
         console.log('write');
     });
+    fs.unlink('text3.txt',function(err){
+        if(err) throw err;
+        console.log('deleted');
+    });
+    fs.rename('text3.txt','text4.txt',function(err){
+        if(err) throw err;
+        console.log('renamed');
+    });
