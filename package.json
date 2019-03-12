@@ -1,0 +1,23 @@
+{
+  "name": "Start-Learning-NodeJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "InsertTable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subash-v/Start-Learning-NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subash-v/Start-Learning-NodeJS/issues"
+  },
+  "homepage": "https://github.com/subash-v/Start-Learning-NodeJS#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
